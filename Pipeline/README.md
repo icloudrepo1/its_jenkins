@@ -96,3 +96,15 @@ pipeline {
 
 ```
 =====================END=============================
+
+
+# Docker-Compose & jenkins-declarative-pipeline 👇
+
+# steps :
+
+1. Install docker-compose on your ubuntu system
+
+```
+sudo apt install docker-compose -y
+docker-compose --version
+```

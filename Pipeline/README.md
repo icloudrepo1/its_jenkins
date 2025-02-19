@@ -121,7 +121,7 @@ pipeline {
         stage('code clone') {
             steps {
                 echo "code cloning hogya repo se"
-                git url: "https://github.com/cloudrepo1/jenkins-pro.git"
+                git url: "https://github.com/cloudrepo1/jenkins-project-repo.git"
             }
         }
         stage('code build') {
@@ -130,9 +130,6 @@ pipeline {
                 sh "docker build . -t mywebappimg:latest"
             }
         }
-
-        ///// if any error during code build :- install docker , sudo usermod -aG docker jenkins , sudo systemctl restart jenkins ( again build now )
-        
         stage('code test') {
             steps {
                 echo "code testing hogya"

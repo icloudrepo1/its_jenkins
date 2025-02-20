@@ -112,7 +112,12 @@ docker-compose --version
 
 ##### Jenkins file :- docker-compose deploy
 
+create credentials
 
+  - docker-hub username & pw
+  - id = dockerHub
+
+    
 ```
 pipeline {
     agent any

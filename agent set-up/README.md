@@ -84,13 +84,13 @@ In the Jenkins master server, we will define a pipeline and create a job and the
 
 ### Step 1: Go to your Jenkins Dashboard and click on "Create a Job" or "New Item"
 
-### Step 2: Enter the Job name "node-todo-cicd" and select Pipeline
+### Step 2: Enter the Job name "agent-project" and select Pipeline
 
 ### Step 3: Give the Description and select "GitHub Project"
 
 ### Step 4: In the "Project url" section copy the GitHub URL of the project repository and paste it.
 
-`https://github.com/urlearncloud/agent-jenkins.git`
+`https://github.com/icloudrepo1/jenkins-project-repo.git`
 
 ### Step 5: Scroll down to the "Pipeline" section copy this pipeline and paste it in the Pipeline script & build
 

@@ -60,3 +60,25 @@ Create First Admin User
 ( Update info ) and Start using Jenkins
 
 =================END===========================================
+
+
+
+# JENKINS INSTALLATION ON WINDOWS
+===========================================
+
+#### 1. Download java
+
+`https://www.oracle.com/in/java/technologies/downloads/#jdk21-windows`
+
+Install java
+
+`java --version`
+
+#### 2. Download Jenkins
+
+`https://www.jenkins.io/download/thank-you-downloading-windows-installer-stable/`
+
+Install
+
+
+`login and access` =====>  `localhost:8080`

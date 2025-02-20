@@ -1,12 +1,12 @@
 # Jenkins email notification
 ========================================
 
-### step-1 :- create an ec2-instance ( ubuntu ) & install jenkins on it
+#### step-1 :- create an ec2-instance ( ubuntu ) & install jenkins on it
 
-### step-2 :- go to jenkins dashboard  -->  manage jenkins  --> plug-ins -->  installed plug-ins  --> ( Email Extension plugins ) ,,, if not then install
+#### step-2 :- go to jenkins dashboard  -->  manage jenkins  --> plug-ins -->  installed plug-ins  --> ( Email Extension plugins ) ,,, if not then install
 
 
-### step-3 :- go to gmail & enable 2-step verification  --> go to home  --> search `app passwords`  --> app name = Jenkins ---> create  --> copy pw
+#### step-3 :- go to gmail & enable 2-step verification  --> go to home  --> search `app passwords`  --> app name = Jenkins ---> create  --> copy pw
 
   - go to manage jenkins  --> Credentials  --> add Credentials
 
@@ -20,7 +20,7 @@
 ( Credentials created successfully )
                - 
      
-### step-4 :- go to manage jenkins  --> system  --> scroll down & go to `Extended E-mail Notification`
+#### step-4 :- go to manage jenkins  --> system  --> scroll down & go to `Extended E-mail Notification`
 
   - SMTP server  = smtp.gmail.com
   - SMTP Port  = 465
@@ -40,7 +40,7 @@
   - save
     
 
-### step-5 :- create a pipeline project
+#### step-5 :- create a pipeline project
 
   - new item  --->  Enter an item name = mymail-notification-proj  ---> select pipeline
 

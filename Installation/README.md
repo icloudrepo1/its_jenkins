@@ -1,4 +1,4 @@
-# jenkins Install & Set up on Ubuntu
+# Jenkins Install & Set up on Ubuntu
 =============================================
 
 ### 1. Create an ubuntu instance & Connect
@@ -63,8 +63,8 @@ Create First Admin User
 
 
 
-# JENKINS INSTALLATION ON WINDOWS
-===========================================
+# Jenkins Install & Set up on Windows
+==============================================
 
 #### 1. Download java
 

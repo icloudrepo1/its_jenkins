@@ -29,3 +29,19 @@ Instance-public-ip:8000
 
 
 ===================END====================================
+
+10. Github-jenkins Integration process
+  
+     - Go to Manage Jenkins
+     - Go to Plugins  ------>  Available Plugins  =  Install `GitHub Integration` plugins
+     - Select your project and Click on Configure
+     - Click on Triggers and Click on `GitHub hook trigger for GITScm polling`
+     - Go to Github-repo   ---->  Settings    ----->   Webhooks
+     - Payload URL  =  `http://3.111.39.213:8080/github-webhook/`
+     - Content type  = Application/json
+
+  ( Now changew your code , it automatically deployed )
+     - 
+
+
+===================END====================================

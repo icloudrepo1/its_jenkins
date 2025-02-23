@@ -40,7 +40,7 @@ Instance-public-ip:8000
      - Payload URL  =  `http://3.111.39.213:8080/github-webhook/`
      - Content type  = Application/json
 
-  ( Now changew your code , it automatically deployed )
+  ( Now change your code , it automatically deployed )
      - 
 
 

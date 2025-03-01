@@ -72,3 +72,14 @@ sudo usermod -aG docker jenkins
 sudo systemctl restart docker
 sudo systemctl restart jenkins
 ```
+
+### Apply Docker process
+
+
+   - Select your project and Click on Configure
+   - Build Steps  ---->  Execute shell
+
+        ```
+        docker build -t myfreestyleimg .
+        docker run -d --name freestyle_container -p 8000:8000 myfreestyleimg:latest
+        ```

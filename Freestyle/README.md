@@ -114,5 +114,6 @@ docker-compose --version
         docker-compose down
         docker-compose up -d
         ```
+  ( delete previous docker command and apply new docker-compose command )
         
   - Save and Build now

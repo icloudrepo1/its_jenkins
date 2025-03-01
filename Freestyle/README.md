@@ -85,3 +85,10 @@ sudo systemctl restart jenkins
         ```
         
   - Save and Build now
+
+
+### Verify docker container status
+
+```
+sudo docker ps -a
+```

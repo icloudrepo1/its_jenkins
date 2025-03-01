@@ -92,3 +92,27 @@ sudo systemctl restart jenkins
 ```
 sudo docker ps -a
 ```
+
+
+`For automatically create new container with new code, then we have to use DOCKER-COMPOSE`
+
+
+### Install docker-compose
+
+```
+sudo apt install docker-compose -y
+docker-compose --version
+```
+
+### Apply Docker-compose process
+
+
+   - Select your project and Click on Configure
+   - Build Steps  ---->  Execute shell
+
+        ```
+        docker build -t myfreestyleimg .
+        docker run -d --name freestyle_container -p 8000:8000 myfreestyleimg:latest
+        ```
+        
+  - Save and Build now

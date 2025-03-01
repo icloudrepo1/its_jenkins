@@ -111,8 +111,8 @@ docker-compose --version
    - Build Steps  ---->  Execute shell
 
         ```
-        docker build -t myfreestyleimg .
-        docker run -d --name freestyle_container -p 8000:8000 myfreestyleimg:latest
+        docker-compose down
+        docker-compose up -d
         ```
         
   - Save and Build now

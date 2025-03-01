@@ -51,6 +51,13 @@ Instance-public-ip:8000
 # Freestyle-project ( using container ) 👇
 
 
+### Kill ec2-instance deploy process
+
+```
+sudo lsof -i :80
+```
+
+
 ### Install docker
 
 ```

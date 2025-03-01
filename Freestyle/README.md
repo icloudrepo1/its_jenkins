@@ -45,3 +45,13 @@ Instance-public-ip:8000
 
 
 ===================END====================================
+
+
+
+# Freestyle-project ( using container ) 👇
+
+
+```
+sudo apt install docker.io -y
+docker --version
+```

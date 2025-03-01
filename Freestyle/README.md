@@ -113,7 +113,6 @@ docker-compose --version
 
 ( delete previous docker command and apply new docker-compose command )
 
-
         ```
         docker-compose down
         docker-compose up -d

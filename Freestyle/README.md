@@ -110,9 +110,6 @@ docker-compose --version
    - Select your project and Click on Configure
    - Build Steps  ---->  Execute shell
 
-
-( delete previous docker command and apply new docker-compose command )
-
         ```
         docker-compose down
         docker-compose up -d

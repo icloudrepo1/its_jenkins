@@ -51,7 +51,17 @@ Instance-public-ip:8000
 # Freestyle-project ( using container ) 👇
 
 
+### Install docker
+
 ```
 sudo apt install docker.io -y
 docker --version
+```
+
+### Apply docker permission
+
+```
+sudo usermod -aG docker jenkins
+sudo systemctl restart docker
+sudo systemctl restart jenkins
 ```

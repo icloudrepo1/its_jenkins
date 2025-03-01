@@ -83,3 +83,5 @@ sudo systemctl restart jenkins
         docker build -t myfreestyleimg .
         docker run -d --name freestyle_container -p 8000:8000 myfreestyleimg:latest
         ```
+        
+  - Save and Build now

@@ -70,24 +70,24 @@ pipeline {
     stages {
         stage('code clone') {
             steps {
-                echo "code cloning hogya repo se"
+                echo "code cloned successfully"
                 git url: "https://github.com/icloudrepo1/jenkins-project-repo.git"
             }
         }
         stage('code build') {
             steps {
-                echo "code build v karliye"
+                echo "code build successfully"
                 sh "docker build . -t myappimg:latest"
             }
         }
         stage('code test') {
             steps {
-                echo "code testing hogya"
+                echo "code tested successfully"
             }
         }
         stage('code deploy') {
             steps {
-                echo "deploying v hogya h container k andar"
+                echo "code deployed successfully"
                 sh "docker run -itd -p 8000:8000 myappimg:latest"
             }
         }
@@ -125,19 +125,19 @@ pipeline {
     stages {
         stage('code clone') {
             steps {
-                echo "code cloning hogya repo se"
+                echo "code cloned successfully"
                 git url: "https://github.com/icloudrepo1/jenkins-project-repo.git"
             }
         }
         stage('code build') {
             steps {
-                echo "code build v karliye"
+                echo "code build successfully"
                 sh "docker build . -t mywebappimg:latest"
             }
         }
         stage('code test') {
             steps {
-                echo "code testing hogya"
+                echo "code testing successfully"
             }
         }
         stage("Push to Docker Hub"){
@@ -152,7 +152,7 @@ pipeline {
         }
         stage("deploy"){
             steps {
-                echo "deploying the container"
+                echo "code deployed successfully"
                 sh "docker-compose down && docker-compose up -d"
     }
 }

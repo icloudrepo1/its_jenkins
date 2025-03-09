@@ -8,8 +8,8 @@
    
    - ubuntu-24 ami
    - t2.micro
-   - keypair = jenkinskey.ppk/pem
-   - security group = new security-group ----> ssh, all traffic ( anywhere )
+   - keypair = agent_key.pem
+   - security group = new security-group ----> all traffic ( anywhere )
    - number of instances ---> 2 ( jenkins-master , jenkins-worker )
    - launch instances
 

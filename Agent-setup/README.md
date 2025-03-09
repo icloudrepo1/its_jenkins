@@ -82,3 +82,31 @@ install suggested plug-ins
 Create First Admin User 
 
 ( Update info ) and Start using Jenkins
+
+
+#### 6. Running a Pipeline Job for Nodejs App on worker system
+
+
+1.  Go to your Jenkins Dashboard and click on `manage jenkins`
+
+2.  Click on `nodes`
+
+     - name  =  worker_sys  ( Permanent Agent ) , create
+     - Description  =  this is my agent node
+     - Remote root directory  =  `/home/ubuntu/agent_dir`
+     - Labels  = jenkins agent
+     - Launch method  =  launch agents via ssh
+     - host = worker_sys-pub-ip
+     - Jenkins Credentials Provider: Jenkins
+     
+         - ssh user name with pvt key
+         - id = key
+         - desc. = myslavenode1
+         - username = ubuntu
+         - pvt key = paste it ( cat id_rsa )
+           
+     - Host Key Verification Strategy  = non verifying
+  
+     - click on save
+  
+------------end

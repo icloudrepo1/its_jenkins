@@ -18,7 +18,7 @@
    - ( follow , how to install jenkins on ubuntu machine )
 
 
-#### 2. Establish SSh-connectivity between master & worker
+#### 3. Establish SSh-connectivity between master & worker
 
 ##### go to master system and generate ssh-key
 
@@ -39,3 +39,22 @@
 `cat authorized_keys`
 
 ( paste public key )
+
+
+##### Test connectivity
+
+go to master system , execute below commands
+
+`cd`
+
+`ssh -i id_ed25519 ubuntu@<worker system public dns>`  
+
+(now master can successfully interact with worker)
+
+`exit`
+
+#### 4. Install java on worker system
+
+`sudo apt update`
+
+`sudo apt install fontconfig openjdk-17-jre -y`

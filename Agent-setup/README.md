@@ -58,3 +58,27 @@ go to master system , execute below commands
 `sudo apt update`
 
 `sudo apt install fontconfig openjdk-17-jre -y`
+
+
+#### 5. Go to master system and connect jenkins access
+
+
+A. copy Your system (instance) public-ip & paste it on browser
+
+ex = 65.0.139.252:8080
+
+B. 
+
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+copy password & paste it on Administrator password
+
+C. Customize Jenkins
+
+install suggested plug-ins
+
+Create First Admin User 
+
+( Update info ) and Start using Jenkins
